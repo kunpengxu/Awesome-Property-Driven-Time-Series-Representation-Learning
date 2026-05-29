@@ -1,27 +1,23 @@
 # Awesome-Property-Driven-Time-Series-Representation-Learning
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
-[![Paper](https://img.shields.io/badge/Paper-Manuscript-blue)](#citation)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](#contributing)
 [![License](https://img.shields.io/badge/License-TBD-lightgrey.svg)](#license)
 
-A curated awesome list for **time-series representation learning (TSRL)**, organized by the properties that learned representations should exhibit. TSRL studies how to transform raw sequential observations into compact, informative, and transferable representations for forecasting, classification, anomaly detection, imputation, retrieval, clustering, segmentation, and related downstream tasks.
+A curated awesome list for **time-series representation learning (TSRL)**, organized by the properties that learned representations should exhibit.
 
-This repository accompanies the survey paper **Learning from Time: A Property-Driven Survey on Time-Series Representation Learning**. Unlike lists organized only by architecture or learning paradigm, this README follows the survey's property-driven taxonomy: temporal fidelity, structural integrity, representation robustness, and transferability.
+TSRL studies how to transform raw sequential observations into compact, informative, and transferable representations for forecasting, classification, anomaly detection, imputation, retrieval, clustering, segmentation, and related tasks.
 
-| Resource | Link |
-|---|---|
-| Paper | Coming soon |
-| arXiv | Coming soon |
-| PDF | Coming soon |
-| Code | Coming soon |
-| Citation | [BibTeX](#citation) |
+This repository accompanies the survey paper **Learning from Time: A Property-Driven Survey on Time-Series Representation Learning**. Unlike architecture-only lists, this page is organized by a **property-driven taxonomy**: temporal fidelity, structural integrity, robustness, and transferability.
+
+`Paper:` TBD  |  `arXiv:` TBD  |  `PDF:` TBD  |  `Code:` TBD  |  `Citation:` [BibTeX](#citation)
 
 ![Overview](figures/fig1.png)
 
 ## Table of Contents
 
 - [Property-Driven Taxonomy](#property-driven-taxonomy)
+  - [Full Taxonomy Map (Figure 4)](#full-taxonomy-map-figure-4)
   - [P1 Temporal Fidelity](#p1-temporal-fidelity)
   - [P2 Structural Integrity](#p2-structural-integrity)
   - [P3 Representation Robustness](#p3-representation-robustness)
@@ -41,6 +37,10 @@ This repository accompanies the survey paper **Learning from Time: A Property-Dr
 The survey asks a representation-centered question: **what properties should learned time-series representations exhibit?** The resulting taxonomy groups methods by the representation properties they primarily target.
 
 ![Roadmap](figures/roadmap.png)
+
+### Full Taxonomy Map (Figure 4)
+
+![Figure 4: Property-Driven Taxonomy](figures/fig4.png)
 
 ### P1 Temporal Fidelity
 
@@ -227,8 +227,7 @@ If this survey or repository is useful for your research, please cite:
 @misc{xu2026learning,
   title={Learning from Time: A Property-Driven Survey on Time-Series Representation Learning},
   author={Xu, Kunpeng and Cherkaoui, Soumaya and Lin, Limei and Lin, Chao and Chen, Lifei and Wang, Shengrui},
-  year={2026},
-  note={Manuscript, under preparation}
+  year={2026}
 }
 ```
 
