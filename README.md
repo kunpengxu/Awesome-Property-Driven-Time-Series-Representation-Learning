@@ -1,7 +1,7 @@
 # Awesome-Property-Driven-Time-Series-Representation-Learning
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
-[![Paper](https://img.shields.io/badge/Paper-ACM%20CSUR-blue)](#citation)
+[![Paper](https://img.shields.io/badge/Paper-Manuscript-blue)](#citation)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](#contributing)
 [![License](https://img.shields.io/badge/License-TBD-lightgrey.svg)](#license)
 
@@ -224,11 +224,11 @@ When adding a paper, please include:
 If this survey or repository is useful for your research, please cite:
 
 ```bibtex
-@article{xu2026learning,
+@misc{xu2026learning,
   title={Learning from Time: A Property-Driven Survey on Time-Series Representation Learning},
   author={Xu, Kunpeng and Cherkaoui, Soumaya and Lin, Limei and Lin, Chao and Chen, Lifei and Wang, Shengrui},
-  journal={ACM Computing Surveys},
-  year={2026}
+  year={2026},
+  note={Manuscript, under preparation}
 }
 ```
 
